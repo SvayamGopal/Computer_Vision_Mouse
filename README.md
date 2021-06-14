@@ -23,11 +23,11 @@ In order to implement this program we need to have the following libraries insta
 The video transmitted by the web camera is analyzed image by image in real time. 
 We use the method of detection and tracking approach which is based on motion analysis which can be achieved by using the techniques like edge detection and color analysis. We will achieve it with using the pyautogui library to move the mouse based on its colors.
 
-Red - Cursor movement
+<b>Red</b> - Cursor movement
 
-Green - Left-Click
+<b>Green</b> - Left-Click
 
-Blue - Rght-click
+<b>Blue</b> - Rght-click
 
 <b>Demo</b>
 <br>
