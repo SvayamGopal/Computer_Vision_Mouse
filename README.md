@@ -36,7 +36,8 @@ When a Red color object is placed in one of the 9 possible sub-regions of the RO
 When a Blue color object is introduced alongside a Red object, a Blue colored dotted line is made, this means that the right button on the mouse is clicked in intervals.
 Similarly, this is applicable for a Green object as well.
  
-
+<br>
+<br>
 <img src="images/Img1.png" height = "200">
 <img src="images/Img2.png" height = "400">
 
