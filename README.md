@@ -29,7 +29,7 @@ We use the method of detection and tracking approach which is based on motion an
 
 <b>Blue</b> - Rght-click
 
-<b>Demo</b>
+<h2>Demo</h2>
 <br>
 We have used Microsoft Paint for demonstration purpose. Left Click on the paint brush is set to Green color and the Right Click is set to Blue color so that it is easier demonstrate the functionalities.
 When a Red color object is placed in one of the 9 possible sub-regions of the ROI, the cursor moves in that respective direction on the desktop screen, the distance of the movement is preset in the python code. 
