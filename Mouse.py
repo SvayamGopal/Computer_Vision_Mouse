@@ -4,12 +4,15 @@ import pyautogui
 
 cam = cv.VideoCapture(0)
 
+#range for red color
 lower_red = np.array([150, 30, 30])
 upper_red = np.array([190, 255, 255])
 
+#range for green color
 lower_green = np.array([50,100,100])
 upper_green = np.array([80,255,255])
 
+#range for blue color
 lower_blue = np.array([100, 60, 60])
 upper_blue = np.array([140, 255, 255])
 
@@ -20,7 +23,7 @@ while(True):
         #Smoothen the image
         image_smooth = cv.GaussianBlur(frame,(7,7),0)
 
-        #Define ROI
+        #Define Region of interest
         mask = np.zeros_like(frame)
         mask[100:350,100:350] = [255,255,255]
         image_roi = cv.bitwise_and(image_smooth,mask)
