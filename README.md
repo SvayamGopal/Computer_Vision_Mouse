@@ -5,10 +5,15 @@ This computer vision based mouse can control and command the cursor on a compute
 In order to implement this program we need to have the following libraries installed:
 
 1.Python3
+
 2.pip
+
 3.Opencv
+
 4.Matplotlib
+
 5.Numpy
+
 6.pyautogui
 
 The video transmitted by the web camera is analyzed image by image in real time. 
