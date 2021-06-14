@@ -22,13 +22,14 @@ In order to implement this program we need to have the following libraries insta
 The video transmitted by the web camera is analyzed image by image in real time. 
 We use the method of detection and tracking approach which is based on motion analysis which can be achieved by using the techniques like edge detection and color analysis. We will achieve it with using the pyautogui library to move the mouse based on its colors.
 
-Red - Cursor movement
+<p color="red">Red<p> - Cursor movement
 
 Green - Left-Click
 
 Blue - Rght-click
 
 <b>Demo</b>
+<br>
 We have used Microsoft Paint for demonstration purpose. Left Click on the paint brush is set to Green color and the Right Click is set to Blue color so that it is easier demonstrate the functionalities.
 When a Red color object is placed in one of the 9 possible sub-regions of the ROI, the cursor moves in that respective direction on the desktop screen, the distance of the movement is preset in the python code. 
 When a Blue color object is introduced alongside a Red object, a Blue colored dotted line is made, this means that the right button on the mouse is clicked in intervals.
