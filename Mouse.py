@@ -81,7 +81,6 @@ while(True):
                         pyautogui.click()
                         cv.waitKey(1000)
 
-
                 
                 # Check for Right click
                 image_threshold_blue = cv.inRange(image_hsv, lower_blue, upper_blue)
